@@ -1,20 +1,23 @@
 #name{
-	font-weight: 500;
 	font-size: 175%;
-	color: #000000;
-	vertical-align: middle;
-	padding-left: 1.5%;
-	line-height: 22.5px !important;
+	font-weight: 500;
+	width: 170%;
+	padding-left: 45%;
+	/*font-weight: 500;
+	font-size: 175%;
+	color: #000000;*/
+	/*vertical-align: middle;*/
+	/*padding-left: 1.5%;*/
+	/*line-height: 22.5px !important;*/
 }
 
-span{
-	color: #0095B7;
+#first-name{
+	color:#0095B7;
 }
 
 nav{
 	height: 45px;
 }
-
 #portfolio{
 
 	font-size: 130%;
