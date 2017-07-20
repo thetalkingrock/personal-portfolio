@@ -22,7 +22,11 @@ body{
 	color:#47ABCC;
 }
 
-#last-name{
+#last-name-1{
+	color:#000000;
+}
+
+#last-name-2{
 	color: #d9d9d9;
 }
 
@@ -47,8 +51,68 @@ ul{
 #container{
 	height: 350px;
 	padding-top: 45px;
-	background: url("../images/galaxy.jpg");
+	background: url("../images/northernlights.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	text-align: center;
+}
+
+h1{
+	font-size: 450%;
+	font-weight: 300;
+	word-spacing: .3em;
+}
+
+h3{
+	color: #ffffff;
+	font-size: 175%;
+}
+
+.animated-name {
+           
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+.animated-title{
+	animation-duration: 8s;
+	animation-fill-mode: both;
+}
+         
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+         
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+         
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+#skills{
+	
+	background-color:#333333;
+	text-align: center;
+}
+
+#skills h3{
+	font-size: 240%;
+	font-weight: 300;
+}
+
+#icons{
+	padding-top: 20px;
+}
+
+#icons i{
+	display: inline-block;
+	color: white;
+	font-size: 8em;
+	padding-bottom: .25em;
+	padding-right: .15em;
 }
