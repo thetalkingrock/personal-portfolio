@@ -33,10 +33,14 @@ body{
 nav{
 	height: 45px;
 }
+
+.current-page{
+	font-weight: 900;
+}
+
 #portfolio{
 
 	font-size: 130%;
-	font-weight: 900;
 
 }
 
@@ -63,7 +67,7 @@ h1{
 	word-spacing: .3em;
 }
 
-h3{
+#title{
 	color: #ffffff;
 	font-size: 175%;
 }
@@ -94,6 +98,25 @@ h3{
 	animation-name: fadeIn;
 }
 
+#intro-container{
+	/*padding-top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+	*/
+	padding: 3% 5%;
+}
+
+#intro-header{
+	font-size: 380%;
+	font-weight: 300;
+}
+
+#introduction{
+	padding-top: 1%;
+	font-size: 160%;
+	font-weight: 300;
+}
+
 #skills{
 	
 	background-color:#333333;
@@ -115,4 +138,25 @@ h3{
 	font-size: 8em;
 	padding-bottom: .25em;
 	padding-right: .15em;
+}
+
+#contact-intro{
+	text-align: center;
+
+}
+
+#contact-heading{
+	font-size: 350%;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+#thanks{
+	padding-top: 2%;
+	font-size: 175%;
+	font-weight: 300;
+}
+
+#contact-info{
+	font-size: 150%;
 }
