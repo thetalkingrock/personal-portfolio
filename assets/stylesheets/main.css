@@ -160,3 +160,20 @@ h1{
 #contact-info{
 	font-size: 150%;
 }
+
+#mail-link{
+	text-decoration: underline;
+}
+
+.form{
+	text-align: center;
+	font-size: 110%;
+}
+
+.row{
+	margin-top: 2%;
+}
+
+.form label{
+	font-weight: 300;
+}
