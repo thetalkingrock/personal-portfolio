@@ -120,6 +120,7 @@ h1{
 #skills{
 	
 	background-color:#333333;
+	color: #FFFFFF;
 	text-align: center;
 }
 
@@ -176,4 +177,20 @@ h1{
 
 .form label{
 	font-weight: 300;
+}
+
+#portfolio-container{
+	text-align: center;
+	margin-top: 3%;
+	padding-top: 3%;
+	border-top: 1px solid #DCDCDC;
+	padding-bottom: 3%;
+}
+
+#portfolio-container h3{
+	font-size: 300%;
+}
+
+#portfolio-container p{
+	font-size: 200%;
 }
