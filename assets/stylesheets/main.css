@@ -79,7 +79,9 @@ h1{
 }
 
 .animated-title{
-	animation-duration: 8s;
+
+  	animation-delay: 2s;
+	animation-duration: 2s;
 	animation-fill-mode: both;
 }
          
