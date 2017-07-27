@@ -52,38 +52,42 @@
 		</div>
 		
 		<div class="jumbotron">
-		
-			<div class="form form-group">
-				<div class="row">
-					<div class="col-md-4 col-md-offset-4"> 
-						<label for="name-form">Name:</label>
-						<br>
-						<input type="text" id="name-form" class="form-control" required>
-					</div>	
-				</div>
+			<form method="post" action="https://hidden-bastion-12401.herokuapp.com/submit" name="mailform">
+				<div class="form form-group">
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4"> 
+							<label for="name-form">Name:</label>
+							<br>
+							<input type="text" name="name" id="name-form" class="form-control" required>
+							<div class="help-block with-errors"></div>
+						</div>	
+					</div>
 				
-				<div class="row">
-					<div class="col-md-4 col-md-offset-4">
-						<label for="email">Email:</label>
-						<br>
-						<input type="text" id="email" class="form-control" required>
-					</div>	
-				</div>
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4">
+							<label for="email">Email:</label>
+							<br>
+							<input type="text" name="email" id="email" class="form-control" required>
+							<div class="help-block with-errors"></div>
+						</div>	
+					</div>
 				
-				<div class="row">
-					<div class="col-md-4 col-md-offset-4">
-						<label for="message">Message:</label>
-						<br>
-						<textarea id="message" class="form-control" rows="8" required></textarea>
-					</div>	
-				</div>
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4">
+							<label for="message">Message:</label>
+							<br>
+							<textarea name="message" id="message" class="form-control" rows="8" required></textarea>
+							<div class="help-block with-errors"></div>
+						</div>	
+					</div>
 				
-				<br>
+					<br>
 				
-				<button type="button" class="btn btn-primary btn-md">Submit</button>
+					<button type="submit" class="btn btn-primary btn-md">Submit</button>
 					
-			</div>
-		
+					
+				</div>
+			</form>
 		</div>
 	
 	</body>
