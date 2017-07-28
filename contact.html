@@ -15,13 +15,13 @@
 		<link href="assets/stylesheets/main.css" rel="stylesheet" type="text/css">
 	</head>
 	
-	<body>
+	<body class="padding-top">
 	
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
 				
 				<div class="navbar-header">
-					<span id="name" class="navbar-brand"><span id="first-name-1">John</span> <span id="last-name-1">Rock</span></span>
+					<span id="name" class="even-larger-font navbar-brand"><span id="first-name-1">John</span> <span id="last-name-1">Rock</span></span>
       				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
          				<span class="sr-only">Toggle navigation</span>
          				<span class="icon-bar"></span>
@@ -33,19 +33,19 @@
    				<div class="collapse navbar-collapse" id="navbar-collapse">
       				<ul class = "nav navbar-nav navbar-right">
       			 		<li id="github"><a href="https://github.com/thetalkingrock" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
-      			 		<li id="portfolio"><a href="index.html">Portfolio</a></li>
-						<li id="contact" class="current-page"><a href="#">Contact</a></li>
+      			 		<li class="larger-font"><a href="index.html">Portfolio</a></li>
+						<li class="current-page larger-font"><a href="#">Contact</a></li>
       			 	</ul>
    				</div>
    				
    			</div>		
 		</nav>
 		
-		<div id="contact-intro" class="container-fluid">
+		<div class="text-center container-fluid">
 		
-			<h1 id="contact-heading">Contact</h1>
+			<h1 id="contact-heading" class="softer-font">Contact</h1>
 			
-			<p id="thanks">Thanks for visiting!</p>
+			<p id="thanks" class="even-larger-font softer-font">Thanks for visiting!</p>
 			
 			<p id="contact-info">In addition to here, I can also be reached at <a id="mail-link" href="mailto:jtrock05@gmail.com" target="_top">jtrock05&#64;gmail.com</a>.</p>
 			
@@ -53,31 +53,28 @@
 		
 		<div class="jumbotron">
 			<form method="post" action="https://hidden-bastion-12401.herokuapp.com/submit" name="mailform">
-				<div class="form form-group">
+				<div class="text-center form form-group">
 					<div class="row">
 						<div class="col-md-4 col-md-offset-4"> 
-							<label for="name-form">Name:</label>
+							<label class="softer-font" for="name-form">Name:</label>
 							<br>
 							<input type="text" name="name" id="name-form" class="form-control" required>
-							<div class="help-block with-errors"></div>
 						</div>	
 					</div>
 				
 					<div class="row">
 						<div class="col-md-4 col-md-offset-4">
-							<label for="email">Email:</label>
+							<label class="softer-font" for="email">Email:</label>
 							<br>
 							<input type="text" name="email" id="email" class="form-control" required>
-							<div class="help-block with-errors"></div>
 						</div>	
 					</div>
 				
 					<div class="row">
 						<div class="col-md-4 col-md-offset-4">
-							<label for="message">Message:</label>
+							<label class="softer-font" for="message">Message:</label>
 							<br>
 							<textarea name="message" id="message" class="form-control" rows="8" required></textarea>
-							<div class="help-block with-errors"></div>
 						</div>	
 					</div>
 				

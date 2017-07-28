@@ -1,17 +1,6 @@
-body{
-	padding-top: 45px;
-}
-
 #name{
-	font-size: 175%;
 	font-weight: 500;
 	padding-left: 50px;
-	/*font-weight: 500;
-	font-size: 175%;
-	color: #000000;*/
-	/*vertical-align: middle;*/
-	/*padding-left: 1.5%;*/
-	/*line-height: 22.5px !important;*/
 }
 
 #first-name-1{
@@ -19,7 +8,6 @@ body{
 }
 
 #first-name-2{
-	/*color:#47ABCC;*/
 	color: #a8f0ec;
 }
 
@@ -28,8 +16,7 @@ body{
 }
 
 #last-name-2{
-	/*color: #d9d9d9;*/
-	color: #808080;
+	color: #FFFFFF;
 }
 
 nav{
@@ -40,38 +27,24 @@ nav{
 	font-weight: 900;
 }
 
-#portfolio{
-
-	font-size: 130%;
-
-}
-
-#contact{
-	font-size: 130%;
-}
-
 ul{
 	padding-right: 2.8%;
 }
 
 #container{
 	height: 350px;
-	padding-top: 45px;
 	background: url("../images/northernlights.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	text-align: center;
 }
 
 h1{
 	font-size: 450%;
-	font-weight: 300;
 	word-spacing: .3em;
 }
 
 #title{
 	color: #ffffff;
-	font-size: 175%;
 }
 
 .animated-name {
@@ -103,34 +76,25 @@ h1{
 }
 
 #intro-container{
-	/*padding-top: 3%;
-	padding-left: 5%;
-	padding-right: 5%;
-	*/
 	padding: 3% 5%;
 }
 
 #intro-header{
 	font-size: 380%;
-	font-weight: 300;
 }
 
 #introduction{
 	padding-top: 1%;
 	font-size: 160%;
-	font-weight: 300;
 }
 
 #skills{
-	
 	background-color:#333333;
 	color: #FFFFFF;
-	text-align: center;
 }
 
 #skills h3{
 	font-size: 240%;
-	font-weight: 300;
 }
 
 #icons{
@@ -145,11 +109,6 @@ h1{
 	padding-right: .15em;
 }
 
-#contact-intro{
-	text-align: center;
-
-}
-
 #contact-heading{
 	font-size: 350%;
 	font-weight: 400;
@@ -158,8 +117,6 @@ h1{
 
 #thanks{
 	padding-top: 2%;
-	font-size: 175%;
-	font-weight: 300;
 }
 
 #contact-info{
@@ -171,7 +128,6 @@ h1{
 }
 
 .form{
-	text-align: center;
 	font-size: 110%;
 }
 
@@ -179,12 +135,7 @@ h1{
 	margin-top: 2%;
 }
 
-.form label{
-	font-weight: 300;
-}
-
 #portfolio-container{
-	text-align: center;
 	margin-top: 3%;
 	padding-top: 3%;
 	border-top: 1px solid #DCDCDC;
@@ -197,4 +148,24 @@ h1{
 
 #portfolio-container p{
 	font-size: 200%;
+}
+
+.larger-font{
+	font-size: 130%;
+}
+
+.padding-top{
+	padding-top: 45px !important;
+}
+
+.softer-font{
+	font-weight:300 !important;
+}
+
+.text-center{
+	text-align:center;
+}
+
+.even-larger-font{
+	font-size: 175%;
 }
