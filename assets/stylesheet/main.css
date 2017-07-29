@@ -32,11 +32,11 @@ ul{
 }
 
 #container{
-	height: 350px;
+	height: 350px !important;
 	background: url("/assets/image/northernlights.jpg") !important;
 	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 100% 100%;
+	background-position: center center !important;
+	background-size: 100% 100% !important;
 }
 
 h1{
