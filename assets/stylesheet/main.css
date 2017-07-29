@@ -35,6 +35,7 @@ ul{
 	height: 350px;
 	background: url("/assets/image/northernlights.jpg") !important;
 	background-repeat: no-repeat;
+	background-position: center center;
 	background-size: 100% 100%;
 }
 
