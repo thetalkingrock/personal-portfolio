@@ -33,7 +33,7 @@ ul{
 
 #container{
 	height: 350px;
-	background: url("../image/northernlights.jpg") !important;
+	background: url("/assets/image/northernlights.jpg") !important;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
