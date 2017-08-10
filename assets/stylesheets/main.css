@@ -171,4 +171,15 @@ h1{
 
 .project-container{
 	border: 1px solid #DCDCDC;
+	padding-top: 3%;
+}
+
+.project-header{
+	font-size: 225%;
+}
+
+.project-container a{
+	padding-bottom: 3%;
+	margin-bottom: 5%;
+	font-size: 150%;
 }
