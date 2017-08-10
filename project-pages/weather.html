@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<title>Local Weather</title>
+		<meta charset="utf-8">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<link href="../assets/stylesheets/weather.css" rel="stylesheet" type="text/css">
+		<script src="../scripts/weather.js" type="text/javascript"></script>
+		
+	</head>
+
+	<body>
+		
+		<div id="main-container" class="container-fluid text-center">
+			
+			<div id="title">
+				<h1>Local Weather</h1>
+			</div>
+			
+			<div id="city-and-temp">
+				
+				<h2 id="city-name"></h2>
+				
+				<div id="temp-container">
+					<span id="temp"></span>&deg; <span id="degree-type">C</span>
+				</div>
+				
+				<h3>Local Weather Conditions</h3>
+				
+				<div id="current-conditions">
+				
+					<p id="weather"></p>
+					
+					<div class="row">
+					
+						<div class="col-md-6">
+							<span style="font-size:250%;">Wind</span>
+							<p id="wind-info"></p>
+						</div>
+						
+						<div class="col-md-6">
+							<span style="font-size:250%;">Humidity</span>
+							<br>
+							<p id="humidity"></p>
+						</div>
+					
+					</div>
+				
+				</div>
+					
+			</div>
+		</div>
+		
+	</body>
+
+
+</html>
