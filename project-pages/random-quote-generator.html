@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Quote Generator</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- JColor plugin -->
+		<script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- Google fonts link -->
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<!-- font awesome -->
+		<script src="https://use.fontawesome.com/a8fb5a6ce7.js"></script>
+		<!-- stylesheet -->
+		<link href="../assets/stylesheets/random-quote-generator.css" rel="stylesheet" type="text/css">
+		<!-- JavaScript file -->
+		<script src="../scripts/quotes.js" type="text/JavaScript"></script>
+	</head>
+	
+	<body class="color-change">
+		
+		<div class="container-fluid text-center">
+			<div class="row">
+				<div id="quote-container" class="col-xs-6 col-xs-offset-3">
+					<div id="fader"> 
+						<span id="quote"><i class="color-change fa fa-quote-left fa-3x"></i><q id="text" class="color-change"></q></span>
+						<br>
+						<cite id="name" class="color-change">- </cite>
+					</div>	
+					<br>
+					<div id="button-container">
+						<a id="twitter-link" href="https://twitter.com/intent/tweet?hashtags=quotes&text=" target="_blank"><i class="social-link fa fa-twitter-square fa-3x color-change"></i></a>
+						<a id="tumblr-link" href="#" target="_blank"><i class="social-link fa fa-tumblr-square fa-3x color-change"></i></a>
+						<button type="button" class="color-change btn btn-primary">New quote</button>
+					</div>	
+				</div>
+			</div>	
+			<small id="github-link">by <a href="https://github.com/thetalkingrock">thetalkingrock</a></small>
+		</div>
+		
+	</body>
+
+</html>

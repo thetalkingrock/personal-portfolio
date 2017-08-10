@@ -1,0 +1,82 @@
+body{
+	background-color: #333333;
+}
+
+.fa{
+	color: #333333;
+}
+
+cite, span, i, #text{
+	background-color: white !important;
+}
+
+#quote-container{
+	font-family: "Lato", "Courier New", Verdana, "Times New Roman", Helvetica, Arial;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 2.75% 2.75%;
+	color: #333333;
+	background-color: white;
+	margin-top: 12%;
+}
+
+cite{
+	font-style: normal;
+}
+
+#quotation-mark{
+	font-size: 650%;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+#github-link{
+	display: inline-block;
+	padding-top: 1%;
+	color: white;
+}
+
+#button-container i{
+	display:inline-block;
+	padding: 2px;
+	position: relative;
+	float: left;
+}
+
+#button-container button{
+	display:inline-block;
+    background-color: #333333;
+    color: white !important;
+	margin-top: auto;
+	position: relative;
+	float: right;
+	border: 0;
+	padding: 12px;
+}
+
+#button-container a:hover, button:hover{
+	opacity: 0.9;
+}
+
+q:before, q:after{
+	content: none;
+}
+
+#text{
+	font-size: 30px;
+}
+
+#name{
+	font-size: 15px;
+}
+
+.social-link{
+	background-color: inherit !important;
+}
