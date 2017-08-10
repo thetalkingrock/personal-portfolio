@@ -4,7 +4,7 @@ $(document).ready(function(){
 	$("#degree-type").click(function(){
 		
 		var currentDegreeType = $("#degree-type").text();
-		console.log(currentDegreeType);
+		
 		var currentTemp = Number($("#temp").text());
 		$("#temp-container").fadeTo(500, 0, function(){
 			
@@ -46,11 +46,15 @@ $(document).ready(function(){
 			var weatherDescription = data["weather"][0]["main"];
 			//update background image depending on weather
 			if(weatherDescription.toLowerCase().indexOf("rain") >= 0){
-				$("body").css("background-image", "url(images/rain.jpg)");
+				$("body").css("background-image", "url(../assets/images/rain.jpg)");
 			}else if(weatherDescription.toLowerCase().indexOf("cloud") >= 0){
-				$("body").css("background-image", "url(images/cloudy.jpg)");
+				$("body").css("background-image", "url(../assets/images/cloudy.jpg)");
 			}else if(weatherDescription.toLowerCase().indexOf("sun") >= 0){
-				$("body").css("background-image", "url(images/sunny.jpg)")
+				$("body").css("background-image", "url(../assets/images/sunny.jpg)");
+			}else if(weatherDescription.toLowerCase().indexOf("storm") >= 0){
+				$("body").css("background-image", "url(../assets/images/storm.jpg)");
+			}else if(weatherDescription.toLowerCase().indexOf("snow") >= 0){
+				$("body").css("background-image", "url(../assets/images/snow.jpg)");
 			}
 			
 		});
