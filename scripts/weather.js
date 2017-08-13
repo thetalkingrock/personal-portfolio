@@ -45,7 +45,7 @@ $(document).ready(function(){
 			
 			var weatherDescription = data["weather"][0]["main"];
 			//update background image depending on weather
-			if(weatherDescription.toLowerCase().indexOf("rain") >= 0){
+			if(weatherDescription.toLowerCase().indexOf("rain") >= 0 || weatherDescription.toLowerCase().indexOf("drizzle") >= 0){
 				$("body").css("background-image", "url(../assets/images/rain.jpg)");
 			}else if(weatherDescription.toLowerCase().indexOf("cloud") >= 0){
 				$("body").css("background-image", "url(../assets/images/cloudy.jpg)");
