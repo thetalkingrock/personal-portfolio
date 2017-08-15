@@ -49,7 +49,7 @@ $(document).ready(function(){
 				$("body").css("background-image", "url(../assets/images/rain.jpg)");
 			}else if(weatherDescription.toLowerCase().indexOf("cloud") >= 0){
 				$("body").css("background-image", "url(../assets/images/cloudy.jpg)");
-			}else if(weatherDescription.toLowerCase().indexOf("sun") >= 0){
+			}else if(weatherDescription.toLowerCase().indexOf("sun") >= 0 || weatherDescription.toLowerCase().indexOf("clear") >= 0){
 				$("body").css("background-image", "url(../assets/images/sunny.jpg)");
 			}else if(weatherDescription.toLowerCase().indexOf("storm") >= 0){
 				$("body").css("background-image", "url(../assets/images/storm.jpg)");
