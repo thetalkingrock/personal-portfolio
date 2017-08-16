@@ -1,9 +1,14 @@
+html{
+	height: 100%;
+}
+
 body{
 	background-color: black;
 	color: white;
 	background-size: cover;
 	background-position: center center; 
 	background-repeat: no-repeat;
+	height: 100% !important;
 }
 
 #main-container{
