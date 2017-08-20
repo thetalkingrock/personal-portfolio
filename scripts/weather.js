@@ -55,6 +55,8 @@ $(document).ready(function(){
 				$("body").css("background-image", "url(../assets/images/storm.jpg)");
 			}else if(weatherDescription.toLowerCase().indexOf("snow") >= 0){
 				$("body").css("background-image", "url(../assets/images/snow.jpg)");
+			}else if(weatherDescription.toLowerCase().indexOf("fog") >= 0 || weatherDescription.toLowerCase().indexOf("mist") >= 0){
+				$("body").css("background-image", "url(../assets/images/fog.jpg)");
 			}
 		});
 		//uses the google map api to get location name via reverse geocoding
