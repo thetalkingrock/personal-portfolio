@@ -184,3 +184,7 @@ h1{
 	margin-bottom: 5%;
 	font-size: 150%;
 }
+
+.navbar-collapse{
+	background-color:#f8f8f8;
+}
