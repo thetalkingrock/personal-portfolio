@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<meta charset="utf-8">
+		<title>Twitch Tracker</title>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<!-- my stylesheet -->
+		<link href="../assets/stylesheets/twitch.css" type="text/css" rel="stylesheet">
+		
+		<script src="../scripts/twitch.js" type="text/JavaScript"></script>
+		
+	</head>
+
+	<body>
+		<div id="logo-container" class="container-fluid text-center">
+			<img src="../assets/images/twitch_logo.jpg" alt="Twitch logo">
+		</div>
+		
+		<div id="stream-buttons-container" class="container text-center">
+			<div class="row">
+				<!--
+			--><div class="col-xs-4 no-padding">
+					<button id="online-button">Online</button>
+				</div><!--
+			--><div class="col-xs-4 no-padding">
+					<button id="offline-button">Offline</button>
+				</div><!--
+			--><div class="col-xs-4 no-padding">
+					<button id="all-button">All</button>
+				</div><!--
+			-->		
+			</div>
+		</div>
+		
+		<div id="stream-container" class="container text-center">
+			<ul id="stream-list" class="list-group">
+				<div class="container">
+					
+				</div>
+			</ul>
+		</div>
+		
+		<div id="button-container" class="text-center">
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#stream-modal">Add Stream</button>
+		</div>
+		
+		<div id="stream-modal" class="modal fade" role="dialog">
+			<div class="modal-dialog">	
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3>Enter stream info</h3>
+						<p>Enter name as it would appear in a url (ex: twitch.tv/username)</p>
+					</div>
+					<div class="modal-body">
+						<label for="#stream-input">Enter user's twitch username:</label>
+						<input id="stream-name-input" type="text" required>
+						<p id="error-message"></p>
+					</div>
+					<div class="modal-footer">
+						<button id="add-stream-button" type="button" class="btn btn-primary">Add</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+
+</html>
